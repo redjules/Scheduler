@@ -115,7 +115,7 @@ export default function BookingForm({ event, availability }) {
             }}
           />
         </div>
-        <div className="w-full h-full md:overflow-scroll no-scrollbar">
+        <div className="w-full h-full md:overflow-scroll-XXX no-scrollbar">
           {/* add hide scroll bar code */}
           {selectedDate && (
             <div className="mb-4">

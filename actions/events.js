@@ -3,7 +3,6 @@
 import { db } from "@/lib/prisma";
 import { auth } from "@clerk/nextjs/server";
 import { eventSchema } from "@/app/lib/validators";
-import { startOfDay } from "date-fns";
 
 export async function createEvent(data) {
   const { userId } = auth();
