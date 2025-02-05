@@ -64,7 +64,8 @@ export default function EventCard({ event, username, isPublic = false }) {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <p>{event.description.substring(0, event.description.indexOf("."))}.</p>
+        <p>{event.description}</p>
+        {/* <p>{event.description.substring(0, event.description.indexOf("."))}.</p> */}
       </CardContent>
       {!isPublic && (
         <CardFooter className="flex gap-2">
