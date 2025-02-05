@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { PenBox } from "lucide-react";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
-import UserMenu from "./ui/user-menu";
+import UserMenu from ".//user-menu";
 
 const Header = () => {
   return (
