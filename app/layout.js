@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import { ClerkProvider } from "@clerk/nextjs";
+import CreateEventDrawer from "@/components/create-event";
 
 export const metadata = {
   title: "Shedulrr",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
               <p>Made with 💜 by Ana Stone</p>
             </div>
           </footer>
+          <CreateEventDrawer />
 
           {/*  Footer */}
         </body>
