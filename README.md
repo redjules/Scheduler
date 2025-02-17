@@ -4,6 +4,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 https://schedulrr-ebon.vercel.app/
 
+## Screenshot
+
+![Screenshot 2025-02-17 at 01 45 32](https://github.com/user-attachments/assets/aa3ed5c4-a724-4b65-9e67-a0e84374ea94)
+
 ## Tech stack
 
 Next JS, Shadcn, Tailwind, Clerk, NeonDB and Google Calendar API
